@@ -1,4 +1,4 @@
-
+o
 describe 'AmazonTransaction' do
   let(:amazon_transaction) { AmazonTransaction.new }
   let(:amazon_transaction_with_discount) { AmazonTransaction.new(20) }
@@ -20,7 +20,7 @@ describe 'AmazonTransaction' do
 
   describe '#total' do
     it 'returns the current total' do
-      amazon_transaction.total = 100
+        amazon_transaction.total = 100
       expect(amazon_transaction.total).to eq(100)
     end
   end
